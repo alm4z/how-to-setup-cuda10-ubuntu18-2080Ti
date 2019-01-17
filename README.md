@@ -74,13 +74,14 @@ At this point, you would be able to unload the Nvidia drivers using modprobe -r 
     nvcc -V
 ```
 
-14. Install cuDNN 7.3
+14. Install cuDNN 7.3.
+
 Login/register on developer.NVIDIA.com. Download release version and run following command:
 ```sh
     sudo dpkg -i libcudnn7_7.3.0.29–1+cuda10.0_amd64.deb
 ```
 
-15. That’s all!  Now you are ready to install your favorite machine learning library with CUDA support.
+15. That’s all!  Now you are ready to install your favourite machine learning library with CUDA support.
 
 # Contact
 If you have any further questions or suggestions, please, do not hesitate to contact  by email at a.sadenov@gmail.com.
